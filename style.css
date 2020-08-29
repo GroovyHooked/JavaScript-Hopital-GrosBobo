@@ -1,0 +1,144 @@
+body {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    font-family: 'Arvo', serif;
+    padding-left: 0%;
+}
+
+h1 {
+    font-weight: 400;
+    text-align: center;
+    margin: calc(1.5rem + 3vw) 0;
+    font-size: calc(1.5rem + 3vw);
+}
+
+#desc {
+    display: none;
+}
+
+.descriptions {
+    position: absolute;
+    top: 20%;
+    right: 10%;
+    width: 35%;
+    padding-right: 1.2rem;
+    margin-top: 60px;
+}
+
+h2 {
+    margin-bottom: 1rem;
+    font-size: 5vw;
+    text-align: center;
+}
+
+p:first-of-type {
+    text-align: center;
+    font-size: calc(0.7rem + 0.4vw);
+}
+
+
+/* p {
+    font-size: min(3vw, 1rem);
+} */
+
+.image {
+    position: relative;
+    width: 30%;
+    top: calc(1rem + 2vw);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    /*left: calc(50% - (300px/2)); 
+    left: 30%; */
+}
+
+.block {
+    position: absolute;
+    min-height: 100%;
+    display: none;
+    font-size: calc(2rem * 0.2 vw);
+    left: 100px;
+}
+
+.visible {
+    position: absolute;
+    min-height: 100%;
+    display: block;
+    font-size: 0.8rem;
+    width: calc(230% + 2vw);
+    top: -150px;
+    padding-left: 1rem;
+}
+
+
+/*.block:nth-child(1){
+    display: block;
+    top: -200%;
+    
+}*/
+
+.ronds {
+    position: absolute;
+    width: 139px;
+    height: 520px;
+    top: 24%;
+    margin: 0 auto;
+}
+
+.rond {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.rouge {
+    background-color: rgba(241, 30, 30, 0.7);
+}
+
+.rond1 {
+    position: absolute;
+    left: 0%;
+    top: -8%;
+}
+
+.rond2 {
+    position: absolute;
+    left: 72%;
+    top: 9%;
+}
+
+.rond3 {
+    position: absolute;
+    left: -7%;
+    top: 18%;
+}
+
+.rond4 {
+    position: absolute;
+    left: 55%;
+    top: 20%;
+}
+
+.rond5 {
+    position: absolute;
+    left: 16%;
+    top: 41%;
+}
+
+.rond6 {
+    position: absolute;
+    left: 48%;
+    top: 60%;
+}
+
+
+/*@media and screen (min-width: 700px) {
+    body {
+        line-height: 100%;
+    }
+}

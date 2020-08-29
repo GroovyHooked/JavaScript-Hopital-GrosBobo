@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    
+    <title>Document</title>
+</head>
+
+<body>
+    <h1 id="titre">Le corps humain</h1>
+    <p id="hide">Cliquez sur les zones grisées</p>
+    <div class="image" id="corps">
+        <img src="corps.png" alt="">
+        <div class="ronds">
+            <div class="rond rond1" id="rond1" onClick="rouge(1)"></div>
+            <div class="rond rond2" id="rond2" onClick="rouge(2)"></div>
+            <div class="rond rond3" id="rond3" onClick="rouge(3)"></div>
+            <div class="rond rond4" id="rond4" onClick="rouge(4)"></div>
+            <div class="rond rond5" id="rond5" onClick="rouge(5)"></div>
+            <div class="rond rond6" id="rond6" onClick="rouge(6)"></div>
+        </div>
+
+        <div class="descriptions" id="desc">
+            <div class="block block1 epaule" id="block1">
+                <h2>L'épaule :</h2>
+                <p>L'épaule (nom féminin) est la région morphologique se situant à la jonction du tronc avec le membre supérieur. Elle comporte plusieurs articulations qui concourent à en faire le complexe articulaire le plus mobile du corps humain. Elle
+                    permet d'orienter le membre supérieur dans l'espace, autorisant en particulier son extrémité effectrice, la main, à assurer ses rôles de préhension et de communication avec l'environnement situé à sa portée.
+
+                </p>
+            </div>
+            <div class="block block2 coude" id="block2">
+                <h2>Le coude :</h2>
+                <p>Le coude (ou articulation olécranienne) est la partie du membre supérieur située entre le bras et l'avant-bras. Cette articulation comprend en avant la région du « pli du coude » (ou fosse cubitale). C'est un complexe articulaire synovial
+                    du membre supérieur humain reliant le bras à l'avant-bras. Il unit ainsi trois os entre eux : le radius, l'ulna (cubitus) et l'humérus.</p>
+            </div>
+            <div class="block block3 poignet" id="block3">
+                <h2>Le poignet :</h2>
+                <p>Le poignet est une région du membre supérieur située entre la main et l'avant-bras, et contenant le carpe. Élément-clé pour le fonctionnement de la main, il permet les mouvements (c'est-à-dire les changements de place et d’orientation)
+                    de la main par rapport à l’avant-bras, transmet les forces appliquées de la main à l’avant-bras, permet d'adapter la capacité de flexion-extension maximale des doigts et de la préhension.</p>
+            </div>
+            <div class="block block4 hanche" id="block4">
+                <h2>La Hanche :</h2>
+                <p>La hanche ou articulation coxo-fémorale est une articulation (sphéroïde) qui permet de joindre la cuisse au bassin. Elle met en jeu deux os : l'os coxal et le fémur.</p>
+            </div>
+            <div class="block block5 genou" id="block5">
+                <h2>Le genou :</h2>
+                <p>Le genou est une articulation qui permet de joindre la jambe à la cuisse. Elle met en jeu trois os, le fémur, le tibia et la patella, par le biais de trois articulations, l'articulation fémoro-patellaire et la double articulation fémoro-tibiale.
+                    Le cartilage assure la fluidité des mouvements du genou. Le tissu élastique fin, le cartilage, protège l'os et fait en sorte que les surfaces de l'articulation glissent facilement les unes contre les autres. </p>
+            </div>
+            <div class="block block6 pied" id="block6">
+                <h2>Le pied :</h2>
+                <p>Le pied est la partie distale du membre inférieur de l'homme. Il est relié à la jambe par l'articulation de la cheville. Il supporte le poids du corps en position debout et permet la locomotion. Le pied adulte comprend 26 os — soit, pour
+                    les deux pieds, le quart de ceux composant l'ensemble du squelette humain —, 16 articulations, 107 ligaments assurant leur protection et limitant la mobilité, 20 muscles qui permettent leur mouvement1.</p>
+            </div>
+
+        </div>
+    </div>
+    <script src="anim.js"></script>
+</body>
+
+</html>
